@@ -16,7 +16,6 @@ internal partial class Program
         Task10();
         Task11();
         Task12();
-
         Console.ReadLine();
     }
 
@@ -213,7 +212,7 @@ internal partial class Program
 
     public static void Task8()
     {
-        Console.WriteLine("Enter Year of Month");
+        Console.WriteLine("Enter Month of Year");
         string month = Console.ReadLine();
 
         switch (month)
