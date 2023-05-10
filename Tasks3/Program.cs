@@ -38,8 +38,6 @@ internal partial class Program
         {
             Console.WriteLine($"Big number is {c}");
         }
-
-
     }
     public static void Task2()
     {
@@ -297,9 +295,7 @@ internal partial class Program
             default:
                 Console.WriteLine("Choose between 1 and 5");
                 break;
-
         }
-
     }
 
     public static void Task10()
@@ -314,7 +310,7 @@ internal partial class Program
         Console.Write("z: ");
         z = Convert.ToDouble(Console.ReadLine());
 
-        if (x+y>z)
+        if (x+y>z && x+z>x&& y+z>x)
         {
             Console.WriteLine("İt is Equilateral triangle");
         }
@@ -322,6 +318,8 @@ internal partial class Program
         {
             Console.WriteLine("İt is not Equilateral triangle");
         }
+        
+        
     }
     public static void Task11()
     {
